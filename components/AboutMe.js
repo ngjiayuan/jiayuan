@@ -15,7 +15,7 @@ export default function AboutMe() {
         <div className="sm:w-1/2">
           <span className={mono.className}>
             <p className="text-justify md:text-[20px] xxs:px-4 sm:px-2">
-            Hi 👋 I'm Jia Yuan, a Computer Science undergrad 
+            Hi 👋 I&apos;m Jia Yuan, a Computer Science undergrad 
             at National University of Singapore (NUS). I specialise 
             in <Color color="orange">Software Engineering</Color> and <Color color="yellow">Artificial Intelligence</Color>. 
             I am currently working at Stablecorp as a Fintech Developer.

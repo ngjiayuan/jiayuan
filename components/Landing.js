@@ -13,7 +13,7 @@ export default function Landing() {
         </div>
         <div className="flex flex-col">
           <span class="writer">
-            <span class="writer-text">Hello, I'm Jia Yuan!</span>
+            <span class="writer-text">Hello, I&apos;m Jia Yuan!</span>
           </span>
           <span className={mono.className}>
             <span className="text-orange sm:text-lg font-bold text-end">Software Developer</span>

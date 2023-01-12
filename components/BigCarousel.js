@@ -7,7 +7,7 @@ export default function BigCarousel() {
   return (
     <Carousel className="mt-8 max-w-4xl h-[500px]" variant="dark">
       <Carousel.Item className="flex items-center justify-center">
-        <img
+        <Image
           className="d-block rounded"
           src="/grapes.png"
           alt="grapes website"
@@ -28,13 +28,13 @@ export default function BigCarousel() {
           >
             <span className="flex items-center mr-1">
               Visit
-              <Image src="/newtab.png" className="w-5 ml-1" />
+              <Image src="/newtab.png" className="w-5 ml-1" alt="newtab" />
             </span>
           </Button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="flex items-center justify-center">
-        <img
+        <Image
           className="d-block rounded"
           src="/stablecorp.png"
           alt="stablecorp website"
@@ -53,13 +53,13 @@ export default function BigCarousel() {
           >
             <span className="flex items-center mr-1">
               Visit
-              <Image src="/newtab.png" className="w-5 ml-1" />
+              <Image src="/newtab.png" className="w-5 ml-1" alt="newtab" />
             </span>
           </Button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="flex items-center justify-center">
-        <img
+        <Image
           className="d-block rounded"
           src="/Finus.png"
           alt="finus"
@@ -81,14 +81,14 @@ export default function BigCarousel() {
             rel="noreferrer noopener"
           >
             <span className="flex items-center mr-1">
-              <Image src="/github-white.svg" className="mr-1" />
+              <Image src="/github-white.svg" className="mr-1" alt="github" />
               Repo
             </span>
           </Button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
+        <Image
           className="d-block rounded"
           src="/ModuLink.png"
           alt="modulink"
@@ -107,7 +107,7 @@ export default function BigCarousel() {
             rel="noreferrer noopener"
           >
             <span className="flex items-center mr-1">
-              <Image src="/github-white.svg" className="mr-1" />
+              <Image src="/github-white.svg" className="mr-1" alt="github" />
               Repo
             </span>
           </Button>

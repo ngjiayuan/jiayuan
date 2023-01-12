@@ -19,7 +19,7 @@ export default function Contact() {
         >
           <span className="text-[24px] px-2 flex items-center">
             Say Hi!
-            <Image src="/newtab.png" className="w-6 h-6 ml-2" />
+            <Image src="/newtab.png" className="w-6 h-6 ml-2" alt="newtab" />
           </span>
         </Button>
       </Container>

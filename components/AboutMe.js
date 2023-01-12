@@ -10,7 +10,7 @@ export default function AboutMe() {
       <a name="about-me" />
       <Container className="h-screen flex flex-col sm:flex-row items-center justify-center sm:justify-between">
         <div className="sm:w-1/2">
-          <Image src="IMG_1205.jpg" alt="img3" className="w-52 sm:w-[400px] xxs:mb-10 sm:mb-0" thumbnail />
+          <Image src="/img3.jpg" alt="img3" className="w-52 sm:w-[400px] xxs:mb-10 sm:mb-0" thumbnail />
         </div>
         <div className="sm:w-1/2">
           <span className={mono.className}>

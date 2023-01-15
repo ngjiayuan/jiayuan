@@ -1,12 +1,10 @@
 import { Button, Container, Image } from "react-bootstrap";
-import { Roboto_Mono } from "@next/font/google";
-
-const mono = Roboto_Mono({ subsets: ['latin'] })
+import { mono } from "./Landing";
 
 export default function Footer() {
   return (
     <>
-      <div className="h-[30%] sm:h-[10%] flex flex-col items-center justify-center text-dark border-t border-dark">
+      <div className="h-[30%] sm:h-[10%] flex flex-col items-center justify-center text-dark border-t border-dark border-solid">
         <Container className="w-full px-4 flex flex-col sm:flex-row justify-between">
           <span className={mono.className}>
             <span className="flex flex-col sm:flex-row">

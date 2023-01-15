@@ -1,7 +1,5 @@
 import { Button, Carousel, Image } from "react-bootstrap";
-import { Roboto_Mono } from "@next/font/google";
-
-const mono = Roboto_Mono({ subsets: ['latin'] })
+import { mono } from "./Landing";
 
 export default function SmallCarousel() {
   return (

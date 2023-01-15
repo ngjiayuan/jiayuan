@@ -1,9 +1,7 @@
 import { Carousel, Container } from "react-bootstrap";
-import { Roboto_Mono } from "@next/font/google";
 import BigCarousel from "./BigCarousel";
 import SmallCarousel from "./SmallCarousel";
-
-const mono = Roboto_Mono({ subsets: ['latin'] })
+import { mono } from "./Landing";
 
 export default function MyWorks() {
   return (

@@ -1,8 +1,6 @@
 import { Container, Image } from "react-bootstrap";
-import { Roboto_Mono } from "@next/font/google";
+import { mono } from "./Landing";
 import Color from "./Color";
-
-const mono = Roboto_Mono({ subsets: ['latin'] })
 
 export default function AboutMe() {
   return (

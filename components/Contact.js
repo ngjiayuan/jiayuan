@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button, Container, Image } from "react-bootstrap";
 import { mono } from "./Landing";
 
@@ -7,7 +8,7 @@ export default function Contact() {
       <a name="contact" />
       <Container className="h-[70%] sm:h-[90%] flex flex-col items-center justify-center text-dark">
         <h1 className={mono.className}>
-          Get in <a href="/myday" className="no-underline text-black">touch</a> with me
+          Get in <Link href="/myday" className="no-underline text-black">touch</Link> with me
         </h1>
         <div className="h-8" />
         <Button 

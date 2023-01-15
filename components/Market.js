@@ -61,7 +61,7 @@ export default function Market() {
         setCrypto(r.data);
       })
       .catch(e => console.log(e));
-  }, [compareFn, config, config2])
+  }, [])
 
   return (
     <div>

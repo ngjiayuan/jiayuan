@@ -14,7 +14,7 @@ export default function StockCard({ stock }) {
 
   return (
     <a href={`https://ca.finance.yahoo.com/quote/${stock.ticker}`} className="no-underline text-black" target="_blank" rel="noreferrer noopener">
-    <div className="border border-solid border-gray rounded min-w-[176px] min-h-[176px] p-3 mr-4">
+    <div className="border border-solid border-gray rounded min-w-[176px] min-h-[176px] p-3 mr-4 hover:bg-neutral-800 hover:text-white">
       <div className="flex justify-between">
         <div>
           <h6>{stock.ticker}</h6>

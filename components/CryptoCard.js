@@ -14,7 +14,7 @@ export default function CryptoCard({ crypto }) {
 
   return (
     <a href={`https://www.coingecko.com/en/coins/${meta[crypto.baseCurrency].toLowerCase()}`} className="no-underline text-black" target="_blank" rel="noreferrer noopener">
-    <div className="border border-solid border-gray rounded min-w-[176px] min-h-[176px] p-3 mr-4">
+    <div className="border border-solid border-gray rounded min-w-[176px] min-h-[176px] p-3 mr-4 hover:bg-neutral-800 hover:text-white">
       <div className="flex justify-between">
         <div>
           <h6>{crypto.baseCurrency.toUpperCase()}</h6>
